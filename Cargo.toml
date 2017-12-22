@@ -1,0 +1,15 @@
+[package]
+name = "rust-webecho"
+version = "0.1.0"
+authors = ["Evgeniy Kulikov <im@kulikov.im>"]
+
+[source.crates-io]
+replace-with = 'vendored-sources'
+
+[source.vendored-sources]
+directory = './vendor'
+
+[dependencies]
+
+[dependencies.iron]
+version = "*"
