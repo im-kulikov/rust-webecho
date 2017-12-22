@@ -1,2 +1,2 @@
 # rust-webecho
-Rust minimalistic webecho server
+Rust minimalistic echo-server
